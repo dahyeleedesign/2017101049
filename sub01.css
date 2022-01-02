@@ -1,0 +1,205 @@
+body, html{
+  font-family: 'Noto Sans KR', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* body {
+  max-width: 1280px;
+} */
+
+header {
+width: 100%;
+display: flex;
+justify-content: center;
+box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
+background-color: white;
+position: fixed;
+z-index: 1;
+top: 0px;
+}
+
+.logo img{
+  width: 200px;
+  position: absolute; 
+  margin-left: 30px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+nav{
+  width: 1280px;
+  height: 100px;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0 60px 0 0;
+
+}
+nav ul li{
+   padding: 0;
+   margin: 0;
+   display: block;
+   float: right;
+
+}
+
+nav ul li a{
+   display: block;
+   height: 100%;
+   box-sizing: border-box;
+   text-transform: uppercase;
+   font-weight: 500;
+   font-size: 20px;
+   color: #464646;
+   text-decoration: none;
+   padding: 45px 25px;
+}
+
+/* .main {
+  text-align: center;
+  font-size: 15px;
+} */
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(252, 130, 179);
+}
+.title01 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(252, 130, 179);
+}
+.title02 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(252, 130, 179);
+}
+
+.box {
+  /* position: relative; */
+  padding: 50px;
+  width: 500px;
+  height: 200px;
+  border: 5px solid rgb(255, 190, 216);
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.virus {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 1280px;
+  height: 150px;
+  margin-top: 300px;
+  margin: 0 auto;
+}
+
+.virus img {
+  /* width: 300px; */
+  /* height: 300px; */
+  /* padding: 100px; */
+  box-sizing: border-box;
+  float: left;
+}
+
+
+.virus p {
+  /* width: 500px;
+  height: 150px; */
+  float: right;
+  margin-top: 50px;
+}
+
+
+
+
+.v_section01 {
+  max-width: 100%;
+  padding: 200px 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.v_section01 img {
+  width: 800px;
+  height: 500px;
+  /* padding: 15px; */
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+}
+
+/* .influenza {
+  width: 450px;
+} */
+
+h2.title{
+  font-weight: medium;
+  font-size: 30px;
+  color: #ff74ba;
+  text-align: left;
+}
+
+p .dsc{
+  font-weight: 500;
+  font-size: 16px;
+  width: 500px;
+}
+
+.v_section02 {
+  max-width: 100%;
+  padding: 200px 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.v_section02 img{
+  width: 800px;
+  height: 500px;
+  padding: 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.typhoid {
+  width: 450px;
+  padding: auto;
+}
+
+.v_section03 {
+  max-width: 100%;
+  padding: 200px 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.v_section03 img {
+  width: 800px;
+  height: 500px;
+  padding: 10px;
+  left: 100px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.tetanus {
+  width: 450px;
+  padding: 90px;
+}
+
+  footer {
+    display: block;
+    max-width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #464646;
+    font-size: 15px;
+    padding: 5%;
+  }
